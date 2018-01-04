@@ -1,0 +1,9 @@
+.option {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+
+.option.selected {
+  font-weight: bold;
+}
