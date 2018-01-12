@@ -22,3 +22,5 @@ function sendEmoticon(emoticon) {
         chrome.tabs.sendMessage(tabs[0].id, emoticon);
     });
 }
+
+chrome.runtime.onUpdateAvailable.addListener(chrome.runtime.reload);
